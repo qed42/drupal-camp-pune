@@ -21,7 +21,7 @@ function cod_profile_optional_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Conference Details',
-    'weight' => '11',
+    'weight' => '13',
     'children' => array(
       0 => 'field_dietary_needs',
       1 => 'field_t_shirt_size',
