@@ -29,16 +29,19 @@ function cod_profile_base_strongarm() {
     'extra_fields' => array(
       'form' => array(
         'ckeditor' => array(
-          'weight' => '12',
-        ),
-        'account' => array(
-          'weight' => '0',
-        ),
-        'timezone' => array(
           'weight' => '14',
         ),
+        'account' => array(
+          'weight' => '2',
+        ),
+        'timezone' => array(
+          'weight' => '16',
+        ),
         'picture' => array(
-          'weight' => '1',
+          'weight' => '3',
+        ),
+        'contact' => array(
+          'weight' => '5',
         ),
       ),
       'display' => array(
