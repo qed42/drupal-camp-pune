@@ -34,3 +34,9 @@ sites/*/private
 #/profiles
 #/scripts
 #/themes
+
+# Ignore paths that contain user-generated content.
+docroot/files
+docroot/sites/*/files
+docroot/sites/*/private
+
